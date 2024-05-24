@@ -43,7 +43,18 @@
                 <td><label>Paz</label></td>
             </tr>
         </table>
-
+        <div>
+            <button onclick="mybutton">Decir hola</button>
+        </div>
         <a href="https://github.com/astVVG/VenturaAstrid">Mi Repositorio</a>
     </body>
+
+    <script>
+            const mybutton=document.getElementsByTagName("button");
+            function saludar (){
+                console.log("Holaa ast");
+            }
+            mybutton.item(0).addEventListener("mouseover",saludar);
+            
+    </script>
 </html>
